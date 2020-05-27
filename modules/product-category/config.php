@@ -2,7 +2,7 @@
 
 return [
     '__name' => 'product-category',
-    '__version' => '0.0.1',
+    '__version' => '0.0.2',
     '__git' => 'git@github.com:getmim/product-category.git',
     '__license' => 'MIT',
     '__author' => [
@@ -61,13 +61,7 @@ return [
                     'type' => 'number'
                 ],
                 'user' => [
-                    'type' => 'object',
-                    'model' => [
-                        'name'  => 'LibUser\\Library\\Fetcher',
-                        'field' => 'id',
-                        'type'  => 'number'
-                    ],
-                    'format' => 'user'
+                    'type' => 'user'
                 ],
                 'name' => [
                     'type' => 'text'
@@ -102,13 +96,7 @@ return [
                     'type' => 'number'
                 ],
                 'user' => [
-                    'type' => 'object',
-                    'model' => [
-                        'name'  => 'LibUser\\Library\\Fetcher',
-                        'field' => 'id',
-                        'type'  => 'number'
-                    ],
-                    'format' => 'user'
+                    'type' => 'user'
                 ],
                 'product' => [
                     'type' => 'object',
